@@ -72,7 +72,7 @@ class SSHMessageReader {
   }
 
   String readUtf8() {
-    return utf8.decode(readString());
+    return utf8.decode(readString(), allowMalformed: true);
   }
 
   List<String> readNameList() {
