@@ -72,7 +72,7 @@ SSH and SFTP client written in pure Dart, aiming to be feature-rich as well as e
 
 ```sh
 # Install the `dartssh` command.
-dart pub global activate dartssh2_cli -sgit https://github.com/anhquan7826/dartssh2.git
+dart pub global activate -sgit https://github.com/anhquan7826/dartssh2.git
 
 # Then use `dartssh` as regular `ssh` command.
 dartssh user@example.com
